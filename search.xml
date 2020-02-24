@@ -25,24 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Test SM.SM Images</title>
-    <url>/2020/02/23/2020-02-23_Test/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/assets/css/hint.min.css"></link><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h1 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test<p><a href="/images/solr-add-core-20170603161114.png" title="京东手机版类目选择" class="gallery-item"><img src="/images/solr-add-core-20170603161114.png" alt="京东手机版类目选择"></a></p>
-<p><a href="/images/%E4%BA%AC%E4%B8%9C%E7%94%B5%E8%84%91%E7%89%88.png" title="京东电脑版" class="gallery-item"><img src="/images/%E4%BA%AC%E4%B8%9C%E7%94%B5%E8%84%91%E7%89%88.png" alt="京东电脑版"></a></p>
-</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
-        var options = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
-        }</script>]]></content>
-      <categories>
-        <category>爬虫</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Mac 软件清单</title>
     <url>/2020/02/23/2020-02-23-Mac-software-list/</url>
     <content><![CDATA[<link rel="stylesheet" href="/assets/css/hint.min.css"></link><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <ol>
@@ -253,7 +235,7 @@
   <entry>
     <title>测试加密文档</title>
     <url>/2017/12/14/2017-12-14-test-password/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/assets/css/hint.min.css"></link><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <div id="security"> <div class="input-container"> <input type="password" class="form-control" id="pass" placeholder=" 查看这个博客请数据密码 wissy " /> <label for="pass"> 查看这个博客请数据密码 wissy </label> <div class="bottom-line"></div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX19la7qsPe+CnM5n6GtQGZr/evdEXx5F+g6n072H1VKB5LjQCGO93u4YIzZH/Sv0OC3E5EG6YIRKHoAHBuODeSfQTRGpYyDA4MWHoxjwicLcHcyfloWfFUjm47SRF7QKp9Oa8bUNoGCd+tenIw74lislBQiqFCmEqJR6TKdPNer3mlvEjioczrbQ27Q6BMpfb4fWVm85/Cw3VFivgnowBLcyrEQyG+B+p4owvZCW5jnmkJ6CwMGZxDb4mtKJehj4Cwybaz691FWRShx8G2W7JLrP8W35jo166EGkvg1GTDipa417Di7WC0HqINunj1y03rP5zNzUDlkCuxw4aRA5S+HNbiYnohDkcE2ctPpYu6Hinm4ciFucPNe4aID8RRS7CWk/a92KkDMyTGDD3vawecc8+BI6cO/yrXpAJ5jgVkjTI8tdS709b0rzbDM3XIOCTffpR4OIUyck14cknwWA+EdgcmR5ezYe5+hxz+nDFnrm4bctVD9x1NUtl0X0QDEINiHilWsgrjLLA3YQj3apNqvf78Wt+7vUqb8lTWULNkPZ//1Ht5JHPYZeDv1ScXPoy8UOBck/TtHzNnDL5aM4/9KH6EodV5ugO4yQiIBz+ANPJ+o1QX/FTpBXWeHNIZLuBIy/ZrlDQQAOZQse64kDUMDivd5A8HrhzXJRxLRAce+ixBlUco1RoaXvbYI0tXtqeX7/hpDHIKYxbmQDRchhPLYWIo36UifFekYP0GzoHGLJkS8majLt6iUc8CqgTH5/BJzIcep3HGn5JRqgik+aburkgCx1UK46csXGSJzoNF098jLAoFyOr5zC2U0mU8Wflrqn1w8QmAJv0sQaW0b5hxaXjpx1jJSlKEGHrro7ERtWXSVz9OEAntCqnaD4zJjYGtDaWZyrXb1a1BsoQP/C45IdPS7mFjz+jfyhsqsvqyZwwOVNRJQPpNveClX0OHezyV9sbWivf/diQfbs0wjhx0Vw59loy8XwSihjzFMLFCYewN90MgfdBbQzuZFVtzqr73ITcBFLJyrCxDutwqVHTaiWUjl6ZH7xtS06Vaoafevq1YUvPAEhOwX36b+WmI2wdtT+OkIIUKYHC1EGh3hRUmmV1svqlNs52zvG9fVKvQ+xsDhLgL/jv2mqeuIkK9onvilVdd7ttKYJGS4HaeXlY2GCMmzWahxVR3Tsoy+JkF5jkt+RCPYLSYxspQ8MncDRgFzfs2eDcFKnLtqd0rZuNW0CTd0QTaqh55NJZqYd4+ppwDpYkUPHjvRn </div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<link rel="stylesheet" href="/assets/css/hint.min.css"></link><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <div id="security"> <div class="input-container"> <input type="password" class="form-control" id="pass" placeholder=" 查看这个博客请数据密码 wissy " /> <label for="pass"> 查看这个博客请数据密码 wissy </label> <div class="bottom-line"></div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX1+1lT1PyfGddXIG4imNkyl2TtyVGF89eOnZ7a2lVQ7rOvfG3hFpOAgIHVLFaFcsP/KHjfBWf9rkaqh4v9U9t7HI5CVX/rqmnKhn2VGnO/YkD0HCdyeCCGo5fGy8EudNIaoeteIrL3PGdzN1On3wQpD1DwDpMDmXq4w1fnyRsv1B9G1ti0ejLXSBOkpbmfNlOuwL/MLM4JAys53ZWc6SQtbApRyhl1JWJ9q2dpNKRLknYSFjTbMnMxS2IofV91TaFIq3fv7rmswUK3WKKwiyIvB+wzvSod1tO+1LdE4NCAed4ZNv73o6zKPJYEfXiVZIHYGSQVidH2OUAng0C6QCMJXazxVu7umgMQCpTlWVsKuqRqivBrRpJj4oRb1ypnS4h6At/NM+6XJgxXo3wvMeN8at8DDCB8NjF1AC5dxK/tZy36rKo8kuqvKFTfUOh+bp4bLva/B3By0RLgrjy83K5YovIADrjwRsnJO17dcnoSES6iao6JVSipa/MS35JYC5I0snqcMBD+j0SIF/zK97PPLxWBQCHUw5HIBubNCFkpTY/VZiWU21qA0asRBR+mFnxm8KHS7CHogg+CjdKX1DC0GCskO+ryLZSbDIFF9/np0E49zgtdXXNDw6L5+u0JrmJ8Ii7+nsuio5caUjm0xNNwPrj4ySZKPVQfCq+w27Qrkj1RBRsTfNurPzxc2e+K5/n0HsvQau2irh/y4uU0NjWSRs2rl6fXwlny4ZwupLH0Zl8gmCQ40GNpv+mUPBv4asK8/M4deENyRqxRmctQkU/1x/OLLzKnRaDZiHngrsxhS6NZ2DDgYLMZFJQ9oF1WKPHY5zjyx2skVTV1PAwLR2K2kEmP6/s9jonaa3UBJOv+quNzl0/bXACGxiiu2vh5VOhyoQrR1IKA01EoZnFyqh8IwixApd9OHd4Ha+IuonhU1rkiio23zsTk3AFQJbdjtRzUEJAgkL+J+kG96y1luPHMBnt/+jQHeDoqnmNu0ZnhoSKCyiWlxSPV3X8IBY2sZ1tR6vlnnRZaoNCg5NjupTX0zCyPAC7mAhQ89gZkFU+btAzU7zYwCrnuevnUXSjEuRvs0g+6xRyt1ltzdJdFlbwRqL6SmYmPOT+MhzSi6dfHQ49PcJmdbhaqwBYxtGObAfTR4vUctLEUY/ha3x6T+L+XcRM1GiqZlwdE/dLtljHuuuGTH4l7tPJTMW2FcjiIUpwpCDmzsuYtw4FvXiMghZhEieOTvch+TEW5/wdn6fFz4QVuEngOuIcpLL </div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -295,10 +277,10 @@ content
 
 
 <h4 id="Echars3-测试"><a href="#Echars3-测试" class="headerlink" title="Echars3 测试"></a>Echars3 测试</h4><p>教程文档[<a href="http://kchen.cc/2016/11/05/echarts-in-hexo/]" target="_blank" rel="noopener">http://kchen.cc/2016/11/05/echarts-in-hexo/]</a></p>
-<div id="echarts4845" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<div id="echarts6502" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4845'));
+        var myChart = echarts.init(document.getElementById('echarts6502'));
 
         // 指定图表的配置项和数据
         var option = {
