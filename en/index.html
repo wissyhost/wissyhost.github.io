@@ -1,0 +1,2738 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans,en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Neucha:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+  
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Wissy">
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Wissy's Tech Blog" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="胡编一通，乱写一气">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wissy&#39;s Tech Blog">
+<meta property="og:url" content="http://wissy.me/en/index.html">
+<meta property="og:site_name" content="Wissy&#39;s Tech Blog">
+<meta property="og:description" content="胡编一通，乱写一气">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Wissy&#39;s Tech Blog">
+<meta name="twitter:description" content="胡编一通，乱写一气">
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 'undefined',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://wissy.me/">
+
+
+<link href="//cdn.bootcss.com/mermaid/6.0.0/mermaid.min.css" rel="stylesheet" type="text/css">
+
+
+
+
+  <title> Wissy's Tech Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?232ee38322eb3bd1dd64b16174a1b8e4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Wissy's Tech Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <h1 class="site-subtitle" itemprop="description"></h1>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-todo">
+          <a href="/todolist" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tasks"></i> <br>
+            
+            ToDo
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-projects">
+          <a href="/projects" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-product-hunt"></i> <br>
+            
+            项目
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-travel">
+          <a href="/tags/travel/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-plane"></i> <br>
+            
+            旅行
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-book">
+          <a href="/book" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
+            
+            书籍
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2020/02/24/2020-02-24-podcast-list/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2020/02/24/2020-02-24-podcast-list/" itemprop="url">
+                  播客 RSS 列表
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-24T21:40:47+08:00">
+                2020-02-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/other/" itemprop="url" rel="index">
+                    <span itemprop="name">其他</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  75 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <ol>
+<li>「津津乐道」：<a href="https://feeds.jjldbk.com/all.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/all.xml</a></li>
+<li>「乱炖」：<a href="https://feeds.jjldbk.com/ld.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/ld.xml</a></li>
+<li>「蓝海之下」：<a href="https://feeds.jjldbk.com/diving.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/diving.xml</a></li>
+<li>「拼娃时代」：<a href="https://feeds.jjldbk.com/pwsd.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/pwsd.xml</a></li>
+<li>「津津乐道」：<a href="https://feeds.jjldbk.com/pzsh.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/pzsh.xml</a></li>
+<li>津津乐道」：<a href="https://feeds.jjldbk.com/kjxs.xml" target="_blank" rel="noopener">https://feeds.jjldbk.com/kjxs.xml</a><br><a href="https://getpodcast.xyz" target="_blank" rel="noopener">查看你感兴趣的更多电台</a></li>
+
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2020/02/23/2020-02-23-Mac-software-list/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2020/02/23/2020-02-23-Mac-software-list/" itemprop="url">
+                  Mac 软件清单
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-23T19:38:36+08:00">
+                2020-02-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mac/" itemprop="url" rel="index">
+                    <span itemprop="name">Mac</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  47 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <ol>
+<li>pock 或者 TouchSwitcher</li>
+<li>Adguard</li>
+<li>mweb</li>
+<li>clearMyMac 3</li>
+<li>keka</li>
+<li>istat menus</li>
+<li>scroll reverser</li>
+<li>margin Note3</li>
+<li>termius</li>
+<li>cloud TV</li>
+<li>Macs Fan Control</li>
+<li>提醒事项（Mac自带）</li>
+<li>ScreenFocus</li>
+<li>openConnect-GUI,Tunnelblick,Shimo</li>
+
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2019/07/11/2019-07-14-crawler-category/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2019/07/11/2019-07-14-crawler-category/" itemprop="url">
+                  网站类目爬取技巧
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-11T21:17:56+08:00">
+                2019-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/爬虫/" itemprop="url" rel="index">
+                    <span itemprop="name">爬虫</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  235 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p>网站类目爬取技巧<p></p>
+<p>我们在爬取网站的时候,经常因为找不到类目入口需要人工整理类目元数据,再输入到爬虫程序里面,这边介绍的方法目前有两种,1. 获取 JS 对象里面的数据,2. 通过 url 分析,后续在补充</p>
+<h3 id="JS-对象里面包含的数据"><a href="#JS-对象里面包含的数据" class="headerlink" title="JS 对象里面包含的数据"></a>JS 对象里面包含的数据</h3><p>以京东手机触屏版为例, 打开首页类目的页面</p>
+<p><a href="https://so.m.jd.com/webportal/channel/m_category?searchFrom=bysearchbox" target="_blank" rel="noopener">https://so.m.jd.com/webportal/channel/m_category?searchFrom=bysearchbox</a><br><a href="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E7%89%88%E7%B1%BB%E7%9B%AE%E9%80%89%E6%8B%A9.png" title="京东手机版类目选择" class="gallery-item"><img src="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E7%89%88%E7%B1%BB%E7%9B%AE%E9%80%89%E6%8B%A9.png" alt="京东手机版类目选择" title="京东手机版类目选择"></a><br>我们分析的 JS 的事件 event 都在 document 文件内部,所有我们我们将 html 文件下载到本地并格式化<br><a href="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E8%A7%A6%E5%B1%8F%E7%89%88%E7%B1%BB%E7%9B%AE%E7%BB%93%E6%9E%9C.png" title="京东触屏版类目结果" class="gallery-item"><img src="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E8%A7%A6%E5%B1%8F%E7%89%88%E7%B1%BB%E7%9B%AE%E7%BB%93%E6%9E%9C.png" alt="京东触屏版类目结果" title="京东触屏版类目结果"></a><br>这个 JS 的文档就是我们想要的数据</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 这样也可以导出JS对象成Json数组</span><br><span class="line"><span class="built_in">JSON</span>.stringify(<span class="built_in">window</span>.bigpipe.componentData.m1.data.json)</span><br></pre></td></tr></table></figure>
+
+<h3 id="通过获取类目-URL"><a href="#通过获取类目-URL" class="headerlink" title="通过获取类目 URL"></a>通过获取类目 URL</h3><p><a href="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E7%94%B5%E8%84%91%E7%89%88.png" title="京东电脑版" class="gallery-item"><img src="/static/images/2019-07-14/%E4%BA%AC%E4%B8%9C%E7%94%B5%E8%84%91%E7%89%88.png" alt="京东电脑版" title="京东电脑版"></a></p>
+<p>这些原理都是很简单,首先都是要<code>选择</code>元素,然后<code>观察</code>事件的 event,分析 JS 代码</p>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2019/02/26/2019-02-26-bash-functions/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2019/02/26/2019-02-26-bash-functions/" itemprop="url">
+                  Linux 常用脚本
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T21:17:56+08:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  4,472 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  28 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p>这段脚本包含100多个bash函数，是我几年前方便自己调试和诊断问题写的。贴出来给有需要的人，因为比较懒怎么使用这些函数就不写说明了。其中以下划线开头的是表示私有函数，以<code>cf_</code>开头的表示公共函数，可当做命令使用。<br>原文:<a href="http://hongjiang.info/" target="_blank" rel="noopener">http://hongjiang.info/</a><p></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br><span class="line">461</span><br><span class="line">462</span><br><span class="line">463</span><br><span class="line">464</span><br><span class="line">465</span><br><span class="line">466</span><br><span class="line">467</span><br><span class="line">468</span><br><span class="line">469</span><br><span class="line">470</span><br><span class="line">471</span><br><span class="line">472</span><br><span class="line">473</span><br><span class="line">474</span><br><span class="line">475</span><br><span class="line">476</span><br><span class="line">477</span><br><span class="line">478</span><br><span class="line">479</span><br><span class="line">480</span><br><span class="line">481</span><br><span class="line">482</span><br><span class="line">483</span><br><span class="line">484</span><br><span class="line">485</span><br><span class="line">486</span><br><span class="line">487</span><br><span class="line">488</span><br><span class="line">489</span><br><span class="line">490</span><br><span class="line">491</span><br><span class="line">492</span><br><span class="line">493</span><br><span class="line">494</span><br><span class="line">495</span><br><span class="line">496</span><br><span class="line">497</span><br><span class="line">498</span><br><span class="line">499</span><br><span class="line">500</span><br><span class="line">501</span><br><span class="line">502</span><br><span class="line">503</span><br><span class="line">504</span><br><span class="line">505</span><br><span class="line">506</span><br><span class="line">507</span><br><span class="line">508</span><br><span class="line">509</span><br><span class="line">510</span><br><span class="line">511</span><br><span class="line">512</span><br><span class="line">513</span><br><span class="line">514</span><br><span class="line">515</span><br><span class="line">516</span><br><span class="line">517</span><br><span class="line">518</span><br><span class="line">519</span><br><span class="line">520</span><br><span class="line">521</span><br><span class="line">522</span><br><span class="line">523</span><br><span class="line">524</span><br><span class="line">525</span><br><span class="line">526</span><br><span class="line">527</span><br><span class="line">528</span><br><span class="line">529</span><br><span class="line">530</span><br><span class="line">531</span><br><span class="line">532</span><br><span class="line">533</span><br><span class="line">534</span><br><span class="line">535</span><br><span class="line">536</span><br><span class="line">537</span><br><span class="line">538</span><br><span class="line">539</span><br><span class="line">540</span><br><span class="line">541</span><br><span class="line">542</span><br><span class="line">543</span><br><span class="line">544</span><br><span class="line">545</span><br><span class="line">546</span><br><span class="line">547</span><br><span class="line">548</span><br><span class="line">549</span><br><span class="line">550</span><br><span class="line">551</span><br><span class="line">552</span><br><span class="line">553</span><br><span class="line">554</span><br><span class="line">555</span><br><span class="line">556</span><br><span class="line">557</span><br><span class="line">558</span><br><span class="line">559</span><br><span class="line">560</span><br><span class="line">561</span><br><span class="line">562</span><br><span class="line">563</span><br><span class="line">564</span><br><span class="line">565</span><br><span class="line">566</span><br><span class="line">567</span><br><span class="line">568</span><br><span class="line">569</span><br><span class="line">570</span><br><span class="line">571</span><br><span class="line">572</span><br><span class="line">573</span><br><span class="line">574</span><br><span class="line">575</span><br><span class="line">576</span><br><span class="line">577</span><br><span class="line">578</span><br><span class="line">579</span><br><span class="line">580</span><br><span class="line">581</span><br><span class="line">582</span><br><span class="line">583</span><br><span class="line">584</span><br><span class="line">585</span><br><span class="line">586</span><br><span class="line">587</span><br><span class="line">588</span><br><span class="line">589</span><br><span class="line">590</span><br><span class="line">591</span><br><span class="line">592</span><br><span class="line">593</span><br><span class="line">594</span><br><span class="line">595</span><br><span class="line">596</span><br><span class="line">597</span><br><span class="line">598</span><br><span class="line">599</span><br><span class="line">600</span><br><span class="line">601</span><br><span class="line">602</span><br><span class="line">603</span><br><span class="line">604</span><br><span class="line">605</span><br><span class="line">606</span><br><span class="line">607</span><br><span class="line">608</span><br><span class="line">609</span><br><span class="line">610</span><br><span class="line">611</span><br><span class="line">612</span><br><span class="line">613</span><br><span class="line">614</span><br><span class="line">615</span><br><span class="line">616</span><br><span class="line">617</span><br><span class="line">618</span><br><span class="line">619</span><br><span class="line">620</span><br><span class="line">621</span><br><span class="line">622</span><br><span class="line">623</span><br><span class="line">624</span><br><span class="line">625</span><br><span class="line">626</span><br><span class="line">627</span><br><span class="line">628</span><br><span class="line">629</span><br><span class="line">630</span><br><span class="line">631</span><br><span class="line">632</span><br><span class="line">633</span><br><span class="line">634</span><br><span class="line">635</span><br><span class="line">636</span><br><span class="line">637</span><br><span class="line">638</span><br><span class="line">639</span><br><span class="line">640</span><br><span class="line">641</span><br><span class="line">642</span><br><span class="line">643</span><br><span class="line">644</span><br><span class="line">645</span><br><span class="line">646</span><br><span class="line">647</span><br><span class="line">648</span><br><span class="line">649</span><br><span class="line">650</span><br><span class="line">651</span><br><span class="line">652</span><br><span class="line">653</span><br><span class="line">654</span><br><span class="line">655</span><br><span class="line">656</span><br><span class="line">657</span><br><span class="line">658</span><br><span class="line">659</span><br><span class="line">660</span><br><span class="line">661</span><br><span class="line">662</span><br><span class="line">663</span><br><span class="line">664</span><br><span class="line">665</span><br><span class="line">666</span><br><span class="line">667</span><br><span class="line">668</span><br><span class="line">669</span><br><span class="line">670</span><br><span class="line">671</span><br><span class="line">672</span><br><span class="line">673</span><br><span class="line">674</span><br><span class="line">675</span><br><span class="line">676</span><br><span class="line">677</span><br><span class="line">678</span><br><span class="line">679</span><br><span class="line">680</span><br><span class="line">681</span><br><span class="line">682</span><br><span class="line">683</span><br><span class="line">684</span><br><span class="line">685</span><br><span class="line">686</span><br><span class="line">687</span><br><span class="line">688</span><br><span class="line">689</span><br><span class="line">690</span><br><span class="line">691</span><br><span class="line">692</span><br><span class="line">693</span><br><span class="line">694</span><br><span class="line">695</span><br><span class="line">696</span><br><span class="line">697</span><br><span class="line">698</span><br><span class="line">699</span><br><span class="line">700</span><br><span class="line">701</span><br><span class="line">702</span><br><span class="line">703</span><br><span class="line">704</span><br><span class="line">705</span><br><span class="line">706</span><br><span class="line">707</span><br><span class="line">708</span><br><span class="line">709</span><br><span class="line">710</span><br><span class="line">711</span><br><span class="line">712</span><br><span class="line">713</span><br><span class="line">714</span><br><span class="line">715</span><br><span class="line">716</span><br><span class="line">717</span><br><span class="line">718</span><br><span class="line">719</span><br><span class="line">720</span><br><span class="line">721</span><br><span class="line">722</span><br><span class="line">723</span><br><span class="line">724</span><br><span class="line">725</span><br><span class="line">726</span><br><span class="line">727</span><br><span class="line">728</span><br><span class="line">729</span><br><span class="line">730</span><br><span class="line">731</span><br><span class="line">732</span><br><span class="line">733</span><br><span class="line">734</span><br><span class="line">735</span><br><span class="line">736</span><br><span class="line">737</span><br><span class="line">738</span><br><span class="line">739</span><br><span class="line">740</span><br><span class="line">741</span><br><span class="line">742</span><br><span class="line">743</span><br><span class="line">744</span><br><span class="line">745</span><br><span class="line">746</span><br><span class="line">747</span><br><span class="line">748</span><br><span class="line">749</span><br><span class="line">750</span><br><span class="line">751</span><br><span class="line">752</span><br><span class="line">753</span><br><span class="line">754</span><br><span class="line">755</span><br><span class="line">756</span><br><span class="line">757</span><br><span class="line">758</span><br><span class="line">759</span><br><span class="line">760</span><br><span class="line">761</span><br><span class="line">762</span><br><span class="line">763</span><br><span class="line">764</span><br><span class="line">765</span><br><span class="line">766</span><br><span class="line">767</span><br><span class="line">768</span><br><span class="line">769</span><br><span class="line">770</span><br><span class="line">771</span><br><span class="line">772</span><br><span class="line">773</span><br><span class="line">774</span><br><span class="line">775</span><br><span class="line">776</span><br><span class="line">777</span><br><span class="line">778</span><br><span class="line">779</span><br><span class="line">780</span><br><span class="line">781</span><br><span class="line">782</span><br><span class="line">783</span><br><span class="line">784</span><br><span class="line">785</span><br><span class="line">786</span><br><span class="line">787</span><br><span class="line">788</span><br><span class="line">789</span><br><span class="line">790</span><br><span class="line">791</span><br><span class="line">792</span><br><span class="line">793</span><br><span class="line">794</span><br><span class="line">795</span><br><span class="line">796</span><br><span class="line">797</span><br><span class="line">798</span><br><span class="line">799</span><br><span class="line">800</span><br><span class="line">801</span><br><span class="line">802</span><br><span class="line">803</span><br><span class="line">804</span><br><span class="line">805</span><br><span class="line">806</span><br><span class="line">807</span><br><span class="line">808</span><br><span class="line">809</span><br><span class="line">810</span><br><span class="line">811</span><br><span class="line">812</span><br><span class="line">813</span><br><span class="line">814</span><br><span class="line">815</span><br><span class="line">816</span><br><span class="line">817</span><br><span class="line">818</span><br><span class="line">819</span><br><span class="line">820</span><br><span class="line">821</span><br><span class="line">822</span><br><span class="line">823</span><br><span class="line">824</span><br><span class="line">825</span><br><span class="line">826</span><br><span class="line">827</span><br><span class="line">828</span><br><span class="line">829</span><br><span class="line">830</span><br><span class="line">831</span><br><span class="line">832</span><br><span class="line">833</span><br><span class="line">834</span><br><span class="line">835</span><br><span class="line">836</span><br><span class="line">837</span><br><span class="line">838</span><br><span class="line">839</span><br><span class="line">840</span><br><span class="line">841</span><br><span class="line">842</span><br><span class="line">843</span><br><span class="line">844</span><br><span class="line">845</span><br><span class="line">846</span><br><span class="line">847</span><br><span class="line">848</span><br><span class="line">849</span><br><span class="line">850</span><br><span class="line">851</span><br><span class="line">852</span><br><span class="line">853</span><br><span class="line">854</span><br><span class="line">855</span><br><span class="line">856</span><br><span class="line">857</span><br><span class="line">858</span><br><span class="line">859</span><br><span class="line">860</span><br><span class="line">861</span><br><span class="line">862</span><br><span class="line">863</span><br><span class="line">864</span><br><span class="line">865</span><br><span class="line">866</span><br><span class="line">867</span><br><span class="line">868</span><br><span class="line">869</span><br><span class="line">870</span><br><span class="line">871</span><br><span class="line">872</span><br><span class="line">873</span><br><span class="line">874</span><br><span class="line">875</span><br><span class="line">876</span><br><span class="line">877</span><br><span class="line">878</span><br><span class="line">879</span><br><span class="line">880</span><br><span class="line">881</span><br><span class="line">882</span><br><span class="line">883</span><br><span class="line">884</span><br><span class="line">885</span><br><span class="line">886</span><br><span class="line">887</span><br><span class="line">888</span><br><span class="line">889</span><br><span class="line">890</span><br><span class="line">891</span><br><span class="line">892</span><br><span class="line">893</span><br><span class="line">894</span><br><span class="line">895</span><br><span class="line">896</span><br><span class="line">897</span><br><span class="line">898</span><br><span class="line">899</span><br><span class="line">900</span><br><span class="line">901</span><br><span class="line">902</span><br><span class="line">903</span><br><span class="line">904</span><br><span class="line">905</span><br><span class="line">906</span><br><span class="line">907</span><br><span class="line">908</span><br><span class="line">909</span><br><span class="line">910</span><br><span class="line">911</span><br><span class="line">912</span><br><span class="line">913</span><br><span class="line">914</span><br><span class="line">915</span><br><span class="line">916</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> check current os is linux</span></span><br><span class="line">function cf_is_linux() &#123;</span><br><span class="line"> [[ "$OSTYPE" = *linux* ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current os is mac/darwin</span></span><br><span class="line">function cf_is_darwin() &#123;</span><br><span class="line"> [[ "$OSTYPE" = *darwin* ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current os is windows/cygwin</span></span><br><span class="line">function cf_is_cygwin() &#123;</span><br><span class="line"> [[ "$OSTYPE" = *cygwin* ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_gnu_date() &#123;</span><br><span class="line"> date --version &gt;/dev/null 2&gt;&amp;1 &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_gnu_sed() &#123;</span><br><span class="line"> sed --version &gt;/dev/null 2&gt;&amp;1 &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_gnu_awk() &#123;</span><br><span class="line"> awk --version | grep GNU &gt;/dev/null &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_gnu_grep() &#123;</span><br><span class="line"> grep --version | grep GNU &gt;/dev/null &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> java style startsWith</span></span><br><span class="line">function cf_starts_with() &#123;</span><br><span class="line"> local str=$1</span><br><span class="line"> local pre=$2</span><br><span class="line"> [[ "$str" ==  $&#123;pre&#125;* ]]</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> java style substring</span></span><br><span class="line">function cf_substring() &#123;</span><br><span class="line"> local str=$1</span><br><span class="line"> local begin=$2</span><br><span class="line"> local end=$3</span><br><span class="line"> if [ -z "$end" ]; then</span><br><span class="line"> echo $&#123;str:$begin&#125; </span><br><span class="line"> else</span><br><span class="line"> local len=`expr $end - $begin`</span><br><span class="line"> echo $&#123;str:$begin:$len&#125;</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get current shell name</span></span><br><span class="line">function cf_shell_name() &#123;</span><br><span class="line"> local name=$( ps -ocommand= -p $$ | awk '&#123;print $1&#125;')</span><br><span class="line"> if cf_starts_with $name "-"; then</span><br><span class="line"> cf_substring $name 1</span><br><span class="line"> else</span><br><span class="line"> echo $name</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current shell is bash</span></span><br><span class="line">function cf_is_bash() &#123;</span><br><span class="line"> [[ `cf_shell_name` = "-bash" || `basename $(cf_shell_name)` = "bash" ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current shell is zsh</span></span><br><span class="line">function cf_is_zsh() &#123;</span><br><span class="line"> [[ `cf_shell_name` = "-zsh" || `basename $(cf_shell_name)` = "zsh" ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function _script_dir() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> cd "$( dirname "$&#123;BASH_SOURCE[0]&#125;" )" &amp;&amp; pwd -P </span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> cd "$( dirname "$&#123;(%):-%N&#125;" )" &amp;&amp; pwd -P </span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function _script_file() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> basename "$&#123;BASH_SOURCE[0]&#125;" </span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> basename "$&#123;(%):-%N&#125;" </span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> colorful grep. private <span class="keyword">function</span></span></span><br><span class="line">function _get_colorful_grep() &#123;</span><br><span class="line"> cf_is_gnu_grep &gt;/dev/null &amp;&amp; echo "grep --color" &amp;&amp; return 0</span><br><span class="line"> export GREP_OPTIONS='--color=always'</span><br><span class="line"> export GREP_COLOR='1;35;40'</span><br><span class="line"> echo "grep" </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> list all common <span class="built_in">functions</span></span></span><br><span class="line">function cf_functions() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> declare -F | awk '&#123;print $NF&#125;' | grep "cf_" | sort</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> print -l $&#123;(ok)functions&#125; | grep "cf_" | sort</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get total memory (MB)</span></span><br><span class="line">function cf_mem_total() &#123;</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> free -m | awk '/^Mem/&#123;print $2"M"&#125;'</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> sysctl hw.memsize | awk '&#123;print $2/1024/1024"M"&#125;'</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> decimal to hexadecimal</span></span><br><span class="line">function cf_dec2Hex() &#123;</span><br><span class="line"> printf "%x" $1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> decimal to octal </span></span><br><span class="line">function cf_dec2Oct() &#123;</span><br><span class="line"> printf "%o" $1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> decimal to binary</span></span><br><span class="line">function cf_dec2Bin() &#123;</span><br><span class="line"> echo "obase=2; $1" | bc</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> hexadecimal to decimal </span></span><br><span class="line">function cf_hex2Dec() &#123;</span><br><span class="line"> echo $((16#$1))</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> octal to decimal </span></span><br><span class="line">function cf_oct2Dec() &#123;</span><br><span class="line"> echo $((8#$1))</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> binary to decimal </span></span><br><span class="line">function cf_bin2Dec() &#123;</span><br><span class="line"> echo $((2#$1))</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_calc() &#123;</span><br><span class="line"> local exp="$1"</span><br><span class="line"> echo "$exp" | bc -l | awk '&#123;printf "%.2f", $0&#125;'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> warning and <span class="built_in">exit</span>, not <span class="keyword">for</span> interactive shell</span></span><br><span class="line">function cf_die() &#123;</span><br><span class="line"> local msg="$1"</span><br><span class="line"> local code=$&#123;2:-1&#125;</span><br><span class="line"> echo "$msg" &amp;&amp; exit $code</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> highlight key words from file or pipeline</span></span><br><span class="line">function cf_highlight() &#123;</span><br><span class="line"> local keyword="$1"</span><br><span class="line"> local cgrep="$(_get_colorful_grep)"</span><br><span class="line"> if [ -p /dev/stdin ]; then</span><br><span class="line"><span class="meta"> #</span><span class="bash"> from pipeline</span></span><br><span class="line"> while IFS='' read line; do</span><br><span class="line"> echo $line | eval "$cgrep -E \"$&#123;keyword&#125;|$\""</span><br><span class="line"> done</span><br><span class="line"> else</span><br><span class="line"> local file="$2"</span><br><span class="line"> eval "$cgrep -E \"$&#123;keyword&#125;|$\"" "$file"</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ps_env() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> xargs --null --max-args=1 &lt; /proc/$pid/environ</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> ps -wwE -p $pid</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get bash(current shell) major version</span></span><br><span class="line">function cf_bash_major_ver() &#123;</span><br><span class="line"> echo $&#123;BASH_VERSINFO[0]&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get bash(current shell) minor version</span></span><br><span class="line">function cf_bash_minor_ver() &#123;</span><br><span class="line"> echo $&#123;BASH_VERSINFO[1]&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get kernel version</span></span><br><span class="line">function cf_kernel_ver() &#123;</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> uname -r | cut -d'-' -f1</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> uname -r | cut -d'-' -f1</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get kernel major version</span></span><br><span class="line">function cf_kernel_major_ver() &#123;</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> uname -r | awk -F'.' '&#123;print $1"."$2&#125;' </span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> uname -r | awk -F'.' '&#123;print $1"."$2&#125;' </span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get kernel minor version</span></span><br><span class="line">function cf_kernel_minor_ver() &#123;</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> uname -r | awk -F'.' '&#123;print $3&#125;'</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> uname -r | awk -F'.' '&#123;print $3&#125;'</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get value from config file such as app.properties</span></span><br><span class="line">function cf_get_property() &#123;</span><br><span class="line"> local file="$1"</span><br><span class="line"> local key="$2"</span><br><span class="line"> grep "^$&#123;key&#125;=" "$file" | tr -d '\r' | cut -d'=' -f2 | cf_trim</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get <span class="built_in">command</span> path, eg: `cf_command_path ls` output /usr/bin/ls</span></span><br><span class="line">function cf_command_path() &#123;</span><br><span class="line"> local cmd=$1</span><br><span class="line"> cf_is_bash &amp;&amp; builtin type -P $cmd &amp;&amp; return $?</span><br><span class="line"></span><br><span class="line"> if [ -x /usr/bin/which ]; then</span><br><span class="line"> local p=$( /usr/bin/which $1 | head -1 )</span><br><span class="line"> [ ! -z "$p" ] &amp;&amp; echo $p &amp;&amp; return 0</span><br><span class="line"> return 1</span><br><span class="line"> else</span><br><span class="line"> local p=$( which $1 | grep "^/" | head -1 )</span><br><span class="line"> [ ! -z "$p" ] &amp;&amp; echo $p &amp;&amp; return 0</span><br><span class="line"> return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get all ip addresses</span></span><br><span class="line">function cf_ip_list() &#123;</span><br><span class="line"> if [ -x /sbin/ip ]; then</span><br><span class="line"> local list=$(/sbin/ip -o -4 addr list | awk '&#123;print $4&#125;' | cut -d'/' -f1 | tr '\n' ',')</span><br><span class="line"> else</span><br><span class="line"> local list=$(/sbin/ifconfig | grep "inet " | awk '&#123;print $2&#125;' | sed 's/addr://' | tr '\n' ',')</span><br><span class="line"> fi</span><br><span class="line"> echo $&#123;list%,&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_stdio() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> /usr/sbin/lsof -a -p $pid -d 0,1,2</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_stdout() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> readlink -f /proc/$pid/fd/1</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> /usr/sbin/lsof -a -p $pid -d 1 | awk 'NR&gt;1&#123;print $NF&#125;'</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> get file last modification time</span></span><br><span class="line">function cf_last_modification() &#123;</span><br><span class="line"> local file="$1"</span><br><span class="line"> if [[ $OSTYPE == *linux* ]];then</span><br><span class="line"> date +%Y%m%d%H%M%S -r $file</span><br><span class="line"> elif [[ $OSTYPE == *darwin* ]];then</span><br><span class="line"> stat -f "%Sm" -t "%Y%m%d%H%M%S" $file</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current user is root </span></span><br><span class="line">function cf_is_root() &#123;</span><br><span class="line"> [ `whoami` = "root" ] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current shell is interactive</span></span><br><span class="line">function cf_is_interactive_shell() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> [[ "$-" = *i* ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ -o interactive ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check current shell is login shell</span></span><br><span class="line">function cf_is_login_shell() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> shopt -q login_shell &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ -o login ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check <span class="built_in">command</span> is exists</span></span><br><span class="line">function cf_is_command_exists() &#123;</span><br><span class="line"> local cmd=$1</span><br><span class="line"> if [ -x /usr/bin/which ]; then</span><br><span class="line"> /usr/bin/which $cmd &gt;/dev/null 2&gt;&amp;1 &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> else</span><br><span class="line"> which $cmd &gt;/dev/null 2&gt;&amp;1 &amp;&amp; echo "true" &amp;&amp; return 0 </span><br><span class="line"> fi</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check file name globbing flag</span></span><br><span class="line">function cf_is_glob_enabled() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then </span><br><span class="line"> [[ $- != *f* ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ -o glob ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">enable</span> file name globbing</span></span><br><span class="line">function cf_enable_glob() &#123;</span><br><span class="line"> cf_is_bash &gt;/dev/null &amp;&amp; set +f &amp;&amp; return 0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; set -o glob &amp;&amp; return 0</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">disable</span> file name globbing</span></span><br><span class="line">function cf_disable_glob() &#123;</span><br><span class="line"> cf_is_bash &gt;/dev/null &amp;&amp; set -f &amp;&amp; return 0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; set -o noglob &amp;&amp; return 0</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check extglob flag</span></span><br><span class="line">function cf_is_extglob_enabled() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then </span><br><span class="line"> shopt -q extglob &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ -o kshglob ]] &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">enable</span> extglob </span></span><br><span class="line">function cf_enable_extglob() &#123;</span><br><span class="line"> cf_is_bash &gt;/dev/null &amp;&amp; shopt -s extglob &amp;&amp; return 0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; set -o kshglob &amp;&amp; return 0</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">disable</span> extglob </span></span><br><span class="line">function cf_disable_extglob() &#123;</span><br><span class="line"> cf_is_bash &gt;/dev/null &amp;&amp; shopt -u extglob &amp;&amp; return 0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; unsetopt kshglob &amp;&amp; return 0</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> check pid is exists</span></span><br><span class="line">function cf_is_pid_exists() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> [ -z "$pid" ] &amp;&amp; echo "false" &amp;&amp; return 1</span><br><span class="line"> kill -0 $pid &gt;/dev/null 2&gt;&amp;1 &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_java() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> ps -ocommand= -p$pid | awk '$1~/java$/' &gt; /dev/null &amp;&amp; echo "true" &amp;&amp; return 0</span><br><span class="line"> echo "false" &amp;&amp; return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_is_available_port() &#123;</span><br><span class="line"> local port=$1</span><br><span class="line"> if [[ "$OSTYPE" = *linux* ]];then</span><br><span class="line"> local r=$( netstat -ant | awk '$6=="LISTEN" &amp;&amp; $4~":'$port'$"' )</span><br><span class="line"> elif [[ "$OSTYPE" = *darwin* ]];then</span><br><span class="line"> local r=$( netstat -ant | awk '$6=="LISTEN"' | grep "\.$port " )</span><br><span class="line"> else</span><br><span class="line"> echo "unknown system" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"></span><br><span class="line"> [ -z "$r" ] &amp;&amp; echo "true" &amp;&amp; return 0;</span><br><span class="line"> echo "false" &amp;&amp; return 1 # port has been used</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_defined() &#123;</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> [[ $&#123;!1-X&#125; == $&#123;!1-Y&#125; ]]</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ $&#123;(P)1-X&#125; == $&#123;(P)1-Y&#125; ]]</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_has_value() &#123;</span><br><span class="line"> cf_defined $1 || return 1</span><br><span class="line"> if cf_is_bash &gt;/dev/null; then</span><br><span class="line"> [[ -n $&#123;!1&#125; ]] &amp;&amp; return 0</span><br><span class="line"> elif cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [[ -n $&#123;(P)1&#125; ]] &amp;&amp; return 0</span><br><span class="line"> fi</span><br><span class="line"> return 1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_has_sudo_privilege() &#123;</span><br><span class="line"><span class="meta"> #</span><span class="bash"> <span class="keyword">do</span> not need password</span></span><br><span class="line"> sudo -n echo &gt;/dev/null 2&gt;&amp;1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_timestamp() &#123;</span><br><span class="line"> date +%F-%T | tr ':-' '_' #2015_12_01_22_15_22</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_length() &#123;</span><br><span class="line"> echo $&#123;#1&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> trim string</span></span><br><span class="line">function cf_trim() &#123;</span><br><span class="line"> if [ -p /dev/stdin ]; then</span><br><span class="line"> while IFS='' read line; do</span><br><span class="line"> _trim "$line"</span><br><span class="line"> done</span><br><span class="line"> else</span><br><span class="line"> _trim "$1"</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> private <span class="keyword">function</span></span></span><br><span class="line">function _trim() &#123;</span><br><span class="line"> local str="$1"</span><br><span class="line"> local extglob=$(cf_is_extglob_enabled)</span><br><span class="line"> if cf_is_bash &gt;/dev/null || cf_is_zsh &gt;/dev/null; then</span><br><span class="line"> [ $extglob = "false" ] &amp;&amp; cf_enable_extglob</span><br><span class="line"> str="$&#123;str##*( )&#125;"</span><br><span class="line"> str="$&#123;str%%*( )&#125;"</span><br><span class="line"> [ $extglob = "false" ] &amp;&amp; cf_disable_extglob</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> echo $str</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_lower() &#123;</span><br><span class="line"> echo "$1" | tr '[:upper:]' '[:lower:]'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_upper() &#123;</span><br><span class="line"> echo "$1" | tr '[:lower:]' '[:upper:]'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ps_name() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> if cf_is_java $pid &gt;/dev/null; then</span><br><span class="line"> local main=$(cf_ps_java_main $pid)</span><br><span class="line"> echo "java($main)"</span><br><span class="line"> else</span><br><span class="line"> ps -ocommand= -p $pid | awk '&#123;print $1&#125;'</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ppid() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> ps -oppid= -p $pid</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ps_java_main() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> ps -ocommand= -p $pid | tr ' ' '\n' | awk '/-classpath|-cp/&#123;getline;next&#125;;/^-/&#123;next&#125;1' | awk 'NR==2'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ps_time() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> local elapsed="$(ps -oetime= -p $pid | cf_trim)"</span><br><span class="line"> local started="$(ps -olstart= -p $pid | cf_trim)"</span><br><span class="line"> if [ `cf_is_gnu_date` = "true" ]; then</span><br><span class="line"> started=$(date +'%Y-%m-%d %H:%M:%S' -d "$started")</span><br><span class="line"> fi</span><br><span class="line"> local cpu_time=$(ps -otime= -p $pid | cf_trim)</span><br><span class="line"> echo "started from: $started, elapsed: $elapsed, cumulative cpu time: $cpu_time"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_ps_zombies() &#123;</span><br><span class="line"> ps -opid,state,command -e | awk 'NR==1 || $2=="Z"'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_connection_topology() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> /usr/sbin/lsof -Pan -iTCP -p $pid &gt; /tmp/.$pid.lsof</span><br><span class="line"> grep -o "[0-9.:]*-&gt;[0-9.:]*" /tmp/.$pid.lsof &gt; /tmp/.$pid.conns</span><br><span class="line"> grep "LISTEN" /tmp/.$pid.lsof | awk '$9~/*/&#123;print substr($9,3)&#125;' &gt; /tmp/.$pid.ports</span><br><span class="line"></span><br><span class="line"> echo "-------------- downstream -------------"</span><br><span class="line"> for port in $(cat /tmp/.$pid.ports); do</span><br><span class="line"> cf_connection_list_by_port $port | awk '$6=="ESTABLISHED" &#123;print $5&#125;' | cut -d':' -f1 | sort | uniq -c | awk '&#123;print $2"--&gt;localhost:"'$port'" ("$1")"&#125;'</span><br><span class="line"> done</span><br><span class="line"></span><br><span class="line"> echo "-------------- upstream ---------------"</span><br><span class="line"> local portsExpr=$(cat /tmp/.$pid.ports | sed -e 's/^/:/' -e 's/$/-&gt;/' | xargs | sed 's/ /|/g')</span><br><span class="line"> grep -Ev "$portsExpr" /tmp/.$pid.conns &gt; /tmp/.$pid.out</span><br><span class="line"> awk -F'-&gt;' '&#123;print $2&#125;' /tmp/.$pid.out | sort | uniq -c | sort -nrk1 | awk '&#123;print "localhost--&gt;"$2" ("$1")"&#125;'</span><br><span class="line"> rm -f /tmp/.$pid.lsof /tmp/.$pid.conns /tmp/.$pid.ports</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_connection_list_by_pid() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> /usr/sbin/lsof -Pan -iTCP -p $pid</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_connection_list_by_port() &#123;</span><br><span class="line"> local port=$1</span><br><span class="line"> netstat -ant| awk '$4~/[:.]'"$port"'$/'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_connection_stat_by_pid() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> local interval=$&#123;2:-1&#125;</span><br><span class="line"> /usr/sbin/lsof -Pan -iTCP -p $pid -r $interval</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_connection_stat_by_port() &#123;</span><br><span class="line"> local port=$1</span><br><span class="line"> netstat -ant -c| awk '$1=="Proto"&#123;print "\n"$0&#125;;$4~/[:.]'"$port"'$/'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_listening_sockets() &#123;</span><br><span class="line"><span class="meta"> #</span><span class="bash">lsof -Pnl -i4TCP -sTCP:LISTEN <span class="comment">#low version unsupported -sTCP params</span></span></span><br><span class="line"> if cf_is_linux &gt;/dev/null || cf_is_darwin &gt;/dev/null; then</span><br><span class="line"> if cf_has_sudo_privilege; then</span><br><span class="line"> sudo /usr/sbin/lsof -Pnl -i4TCP | grep LISTEN</span><br><span class="line"> else</span><br><span class="line"> /usr/sbin/lsof -Pnl -i4TCP | grep LISTEN</span><br><span class="line"> fi</span><br><span class="line"> else</span><br><span class="line"> netstat -plnt 2&gt;/dev/null | grep -v tcp6</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_traffic_by_eth() &#123;</span><br><span class="line"> local eth=$&#123;1:-"eth0"&#125;</span><br><span class="line"> if cf_is_linux &gt;/dev/null; then</span><br><span class="line"> [ ! -d /sys/class/net/$eth ] &amp;&amp; echo "network interface not exists." &amp;&amp; return 1</span><br><span class="line"> while true; do</span><br><span class="line"> local r1=`cat /sys/class/net/$eth/statistics/rx_bytes`</span><br><span class="line"> local t1=`cat /sys/class/net/$eth/statistics/tx_bytes`</span><br><span class="line"> sleep 1</span><br><span class="line"> local r2=`cat /sys/class/net/$eth/statistics/rx_bytes`</span><br><span class="line"> local t2=`cat /sys/class/net/$eth/statistics/tx_bytes`</span><br><span class="line"> local rkbps=`cf_calc "( $r2 - $r1 ) / 1024"`</span><br><span class="line"> local tkbps=`cf_calc "( $t2 - $t1 ) / 1024"`</span><br><span class="line"> echo "$eth: RX $rkbps kB/s TX $tkbps kB/s"</span><br><span class="line"> done</span><br><span class="line"> elif cf_is_darwin &gt;/dev/null; then</span><br><span class="line"><span class="meta"> #</span><span class="bash"> `netstat -I eth0 -w 1` or `nettop -n -m tcp`</span></span><br><span class="line"> declare -a tuple</span><br><span class="line"> local _i1=0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; _i1=1</span><br><span class="line"> local _i2=1</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; _i1=2</span><br><span class="line"> while true; do</span><br><span class="line"> tuple=( $(netstat -nbi -I $eth | tail -1 | awk '&#123;print $7,$10&#125;') )</span><br><span class="line"> local r1=$&#123;tuple[$_i1]&#125;</span><br><span class="line"> local t1=$&#123;tuple[$_i2]&#125;</span><br><span class="line"> sleep 1</span><br><span class="line"> tuple=( $(netstat -nbi -I $eth | tail -1 | awk '&#123;print $7,$10&#125;') )</span><br><span class="line"> local r2=$&#123;tuple[$_i1]&#125;</span><br><span class="line"> local t2=$&#123;tuple[$_i2]&#125;</span><br><span class="line"> local rkbps=`cf_calc "( $r2 - $r1 ) / 1024"`</span><br><span class="line"> local tkbps=`cf_calc "( $t2 - $t1 ) / 1024"`</span><br><span class="line"> echo "$eth: RX $rkbps kB/s TX $tkbps kB/s"</span><br><span class="line"> done</span><br><span class="line"> else</span><br><span class="line"> echo "unsupported os" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_traffic_by_pid() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"><span class="meta"> #</span><span class="bash"> kernel 2.6.18 not support, must 2.6.32 or later?</span></span><br><span class="line"> local pf="/proc/$pid/net/netstat"</span><br><span class="line"> [ ! -f $pf ] &amp;&amp; echo "$pf not found!" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> declare -a tuple</span><br><span class="line"> local _i1=0</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; _i1=1</span><br><span class="line"> local _i2=1</span><br><span class="line"> cf_is_zsh &gt;/dev/null &amp;&amp; _i1=2</span><br><span class="line"> local pname="$(cf_ps_name $pid)"</span><br><span class="line"> while true; do</span><br><span class="line"> tuple=( $(grep "IpExt: " $pf | awk 'NR==2&#123;print $8,$9&#125;') )</span><br><span class="line"> local r1=$&#123;tuple[$_i1]&#125;</span><br><span class="line"> local t1=$&#123;tuple[$_i2]&#125;</span><br><span class="line"> sleep 1</span><br><span class="line"> tuple=( $(grep "IpExt: " $pf | awk 'NR==2&#123;print $8,$9&#125;') )</span><br><span class="line"> local r2=$&#123;tuple[$_i1]&#125;</span><br><span class="line"> local t2=$&#123;tuple[$_i2]&#125;</span><br><span class="line"> local rkbps=`cf_calc "( $r2 - $r1 ) / 1024"`</span><br><span class="line"> local tkbps=`cf_calc "( $t2 - $t1 ) / 1024"`</span><br><span class="line"> echo "$pname: IN $rkbps kB/s OUT $tkbps kB/s"</span><br><span class="line"> done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_iotop() &#123;</span><br><span class="line"> sudo iotop -bod1</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_check_sum() &#123;</span><br><span class="line"> local dir=$&#123;1:-$PWD&#125;</span><br><span class="line"> local dirsum=0</span><br><span class="line"> for sum  in $(find $&#123;dir&#125; -type f -print0 | xargs -0 cksum | awk '&#123;print $1&#125;')</span><br><span class="line"> do</span><br><span class="line"> dirsum=$(( $&#123;sum&#125; + $&#123;dirsum&#125; ))</span><br><span class="line"> done</span><br><span class="line"> echo $&#123;dirsum&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_classpath_check() &#123;</span><br><span class="line"> [ $# -eq 0 ] &amp;&amp; echo "please enter classpath dir" &amp;&amp; return 1</span><br><span class="line"> [ ! -d "$1" ] &amp;&amp; echo "not a directory" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> local tmpfile="/tmp/.cp$(date +%s)"</span><br><span class="line"> local tmphash="/tmp/.hash$(date +%s)"</span><br><span class="line"> local verbose="/tmp/cp-verbose.log"</span><br><span class="line"></span><br><span class="line"> if cf_is_zsh &gt;/dev/null;then</span><br><span class="line"> local -a files</span><br><span class="line"> local begin=1</span><br><span class="line"> elif cf_is_bash &gt;/dev/null;then</span><br><span class="line"> declare -a files</span><br><span class="line"> local begin=0</span><br><span class="line"> else </span><br><span class="line"> echo "unsupported shell" &amp;&amp; return 1</span><br><span class="line"> fi</span><br><span class="line"> files=(`find "$1" -name "*.jar"`)</span><br><span class="line"></span><br><span class="line"> for f in $files; do</span><br><span class="line"> jarName=`basename $f`</span><br><span class="line"> list=`unzip -l $f | awk -v fn=$jarName '/\.class$/&#123;print $NF,fn&#125;'`</span><br><span class="line"> size=`echo "$list" | wc -l`</span><br><span class="line"> echo $jarName $size &gt;&gt; $tmphash</span><br><span class="line"> echo "$list"</span><br><span class="line"> done | sort | awk 'NF&#123; a[$1]++;m[$1]=m[$1]","$2&#125;END&#123;for(i in a) if(a[i] &gt; 1) print i,substr(m[i],2)&#125;' &gt; $tmpfile</span><br><span class="line"></span><br><span class="line"> awk '&#123;print $2&#125;' $tmpfile | awk -F',' '&#123;i=1;for(;i&lt;=NF;i++) for(j=i+1;j&lt;=NF;j++) print $i,$j&#125;' | sort | uniq -c | sort -nrk1 | </span><br><span class="line"> while read line; do</span><br><span class="line"> local dup=$&#123;line%% *&#125;</span><br><span class="line"> local jars=$&#123;line#* &#125;</span><br><span class="line"> local jar1=$&#123;jars% *&#125;</span><br><span class="line"> local jar2=$&#123;jars#* &#125;</span><br><span class="line"> local len_jar1=`grep -F "$jar1" $tmphash | grep ^"$jar1" | awk '&#123;print $2&#125;'`</span><br><span class="line"> local len_jar2=`grep -F "$jar2" $tmphash | grep ^"$jar2" | awk '&#123;print $2&#125;'`</span><br><span class="line"> local len=$(($len_jar1 &gt; $len_jar2 ? $len_jar1 : $len_jar2))</span><br><span class="line"> local per=$(echo "scale=2; $dup/$len" | bc -l)</span><br><span class="line"> echo $&#123;per/./&#125; $dup $jar1 $jar2</span><br><span class="line"> done | sort -nr -k1 -k2 | awk 'NR==1&#123;print "Similarity DuplicateClasses File1 File2"&#125;&#123;print "%"$0&#125;'| column -t</span><br><span class="line"></span><br><span class="line"> sort $tmpfile | awk '&#123;print $1,"\n\t\t",$2&#125;' &gt; $verbose</span><br><span class="line"> echo "See $verbose for more details."</span><br><span class="line"></span><br><span class="line"> rm -f $tmpfile</span><br><span class="line"> rm -f $tmphash</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_class_find() &#123;</span><br><span class="line"> local libdir=$1</span><br><span class="line"> local name=$2</span><br><span class="line"> local glob=$(cf_is_glob_enabled)</span><br><span class="line"> [ $glob = "false" ] &amp;&amp; cf_enable_glob</span><br><span class="line"> builtin pushd $libdir &gt;/dev/null</span><br><span class="line"> for j in *.jar; do</span><br><span class="line"> unzip -l $j | grep $name &amp;&amp; echo $j;</span><br><span class="line"> done</span><br><span class="line"> builtin popd &gt;/dev/null</span><br><span class="line"> [ $glob = "false" ] &amp;&amp; cf_disable_glob</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_pids() &#123;</span><br><span class="line"> ps x | grep "jav[a]" | awk '&#123;print $1&#125;'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_infos() &#123;</span><br><span class="line"> for p in `cf_java_pids`; do</span><br><span class="line"> echo "java pid: $p"</span><br><span class="line"> info=`ps -opid=,command= -p $p | tr ' ' '\n' | awk '/-classpath|-cp/&#123;getline;next&#125;;/-Xmx|-Dcatalina.base/&#123;print&#125;;/^-/&#123;next&#125;;1' | xargs`</span><br><span class="line"> echo "  $info"</span><br><span class="line"> time=`cf_ps_time $p`</span><br><span class="line"> echo "  $time"</span><br><span class="line"> done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_threads() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> local vm_threads="GC task|VM |CompilerThread|Finalizer|Reference Handler|Signal Dispatcher"</span><br><span class="line"> "$JAVA_HOME"/bin/jstack $pid | grep "^\"" | grep -Ev "$vm_threads"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_java_sysprops() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> "$JAVA_HOME"/bin/jinfo -sysprops $pid</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_jstack_series() &#123;</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> local count=$&#123;2:-5&#125;  # defaults 5 times</span><br><span class="line"> local delay=$&#123;3:-0.5&#125; # defaults 0.5 seconds</span><br><span class="line"></span><br><span class="line"> local logdir=$&#123;LOG_DIR:-"/tmp"&#125;</span><br><span class="line"> while [ $count -gt 0 ]; do</span><br><span class="line"> if cf_is_gnu_date &gt;/dev/null; then </span><br><span class="line"> local suffix=$(date +%H%M%S.%N)</span><br><span class="line"> else</span><br><span class="line"> local suffix=$(date +%H%M%S)"."$count</span><br><span class="line"> fi</span><br><span class="line"> "$JAVA_HOME"/bin/jstack $pid &gt; $logdir/jstack.$pid.$suffix</span><br><span class="line"> sleep $delay</span><br><span class="line"> let count--</span><br><span class="line"> echo -n "."</span><br><span class="line"> done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_dmesg() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"></span><br><span class="line"> dmesg -T "$@" 2&gt;/dev/null</span><br><span class="line"> [ $? -eq 0 ] &amp;&amp; return 0</span><br><span class="line"></span><br><span class="line"> dmesg "$@" | perl -w -e 'use strict;</span><br><span class="line"> my ($uptime) = do &#123; local @ARGV="/proc/uptime";&lt;&gt;&#125;; ($uptime) = ($uptime =~ /^(\d+)\./);</span><br><span class="line"> foreach my $line (&lt;&gt;) &#123;</span><br><span class="line"> printf( ($line=~/^\[\s*(\d+)\.\d+\](.+)/) ? ( "[%s]%s\n", scalar localtime(time - $uptime + $1), $2 ) : $line )</span><br><span class="line"> &#125;'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_http_request() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e read -s 2000 -qftp $pid 2&gt;&amp;1 | grep " HTTP/1[.][01][\]r[\]n" </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_http_response() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e write -s 2000 -qftp $pid 2&gt;&amp;1 | grep "HTTP/1[.][01] " </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_http_req_header() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e read -s 2000 -qftp $pid 2&gt;&amp;1 | grep " HTTP/1[.][01][\]r[\]n" | sed  's/\\r\\n/\n/g'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_http_resp_header() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e write -s 2000 -qftp $pid 2&gt;&amp;1 | grep "HTTP/1[.][01] " | sed 's/\\r\\n/\n/g'</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_http_invoke() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e sendto -s 2000 -qftp $pid 2&gt;&amp;1 | grep " HTTP/1[.][01][\]r[\]n" </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_connect() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e connect -s 2000 -qftp $pid 2&gt;&amp;1 | grep "port"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_socket() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e connect,socket,close -s 2000 -qftp $pid 2&gt;&amp;1 | grep "port"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_sql_select() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e sendto,write -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "[\]3select"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_sql_update() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e sendto,write -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "[\]3update"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_sql_insert() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e sendto,write -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "[\]3insert"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_redis_command() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> local cmd=$2</span><br><span class="line"> strace -e sendto,write -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "$cmd[\]r[\]n"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_dubbo_request() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e read -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "[\]tinterface"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_dubbo_invoke() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> strace -e write -s 2000 -qftp $pid 2&gt;&amp;1 | grep -i "[\]tinterface"</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_trace_system_call() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> local pid=$1</span><br><span class="line"> ! cf_is_pid_exists &gt;/dev/null $pid &amp;&amp; echo "pid:$pid not exists" &amp;&amp; return 1</span><br><span class="line"> local time=$&#123;2:-5&#125;</span><br><span class="line"></span><br><span class="line"> local outfile="/tmp/.sys-call.$pid"</span><br><span class="line"> strace -cqftp $pid -o $outfile &amp; </span><br><span class="line"> local spid=$!</span><br><span class="line"> while [ $time -gt 0 ]; do</span><br><span class="line"> sleep 1</span><br><span class="line"> let time--</span><br><span class="line"> echo -n "."</span><br><span class="line"> done</span><br><span class="line"> echo ""</span><br><span class="line"> kill $spid &amp;&amp; echo "ok"</span><br><span class="line"><span class="meta"> #</span><span class="bash"> <span class="keyword">if</span> strace process still exists</span></span><br><span class="line"> cf_is_pid_exists $spid &gt;/dev/null 2&gt;&amp;1 &amp;&amp; kill -9 $spid</span><br><span class="line"> cat $outfile &amp;&amp; rm -f $outfile</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_random_entropy_stat() &#123;</span><br><span class="line"> ! cf_is_linux &gt;/dev/null &amp;&amp; echo "only works in linux" &amp;&amp; return 1</span><br><span class="line"> while true; do</span><br><span class="line"> echo "entropy available:" `cat /proc/sys/kernel/random/entropy_avail`</span><br><span class="line"> sleep 1</span><br><span class="line"> done</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_json_fmt() &#123;</span><br><span class="line"> python -mjson.tool</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function cf_http_server() &#123;</span><br><span class="line"> local port=$&#123;1:-8000&#125;</span><br><span class="line"> python -mSimpleHTTPServer $port 2&gt;/dev/null</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2019/01/30/2019-01-30-树莓派使用技巧/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2019/01/30/2019-01-30-树莓派使用技巧/" itemprop="url">
+                  树莓派使用技巧
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-30T21:17:56+08:00">
+                2019-01-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/树莓派/" itemprop="url" rel="index">
+                    <span itemprop="name">树莓派</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  140 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p>使用指南<p></p>
+<ul>
+<li>初次安装树莓派可以准备一根网线，以便方便连接进入 ssh</li>
+<li>树莓派的镜像版本默认是没有开启 ssh 的，若想开启，在 <code>boot</code> 下创建 <code>ssh</code> 文件夹即可</li>
+<li>初次使用网线进行连接时，可以将树莓派设置成静态 ip，在 <code>cmdline.txt</code> 文件里面加入 <code>ip=x.x.x.x</code></li>
+<li>无线连接在 <code>boot</code>下创建 <code>wpa_supplicant.conf</code>文件，会映射到 <code>/etc</code>下面，以便配置你的无线连接</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">network=&#123;</span><br><span class="line"> ssid="wifi名称"</span><br><span class="line"> psk ="wifi密码" </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2018/06/18/2018-06-18-Hbase-rest-api/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/06/18/2018-06-18-Hbase-rest-api/" itemprop="url">
+                  Hbase rest api
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-18T21:17:56+08:00">
+                2018-06-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hbase/" itemprop="url" rel="index">
+                    <span itemprop="name">Hbase</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hbase/Bigdata/" itemprop="url" rel="index">
+                    <span itemprop="name">Bigdata</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  24 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <p>Hbase Rest API<br>Hbase Rest 服务默认是不启动的<p></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 前台启动</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 后台启动</span></span><br></pre></td></tr></table></figure>
+
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2018/04/02/2018-04-02-hive-export-csv/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/04/02/2018-04-02-hive-export-csv/" itemprop="url">
+                  使用Hive正确导出csv的姿势
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-02T21:17:56+08:00">
+                2018-04-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hive/" itemprop="url" rel="index">
+                    <span itemprop="name">Hive</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hive/大数据/" itemprop="url" rel="index">
+                    <span itemprop="name">大数据</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  243 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" href="/assets/css/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h3 id="使用Hive导出csv"><a href="#使用Hive导出csv" class="headerlink" title="使用Hive导出csv"></a>使用Hive导出csv<p>大家在导出csv后，使用Excel大家文件的时候，会遇到这样的问题，文件的存在少量串行的数据，虽然不影响整体数据，但是有的时候遇到高精度计算的过程中，还是难免有些尴尬😅</p>
+<ol>
+<li>导出的时候进行转义</li>
+<li>导出的时候使用其他格式，在Excel中使用 数据-&gt;文件-&gt;自文本导入 使用自定义格式导入</li>
+<li>使用Hive序列化导入,会自动规整格式<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span>  wys.wys_output</span><br><span class="line"><span class="keyword">ROW</span> <span class="keyword">FORMAT</span> SERDE <span class="string">'org.apache.hadoop.hive.serde2.OpenCSVSerde'</span></span><br><span class="line"><span class="keyword">WITH</span> SERDEPROPERTIES (</span><br><span class="line"><span class="string">"separatorChar"</span> = <span class="string">","</span>,</span><br><span class="line"><span class="string">"quoteChar"</span>  = <span class="string">"\""</span>,</span><br><span class="line"><span class="string">"escapeChar"</span>  = <span class="string">"\""</span></span><br><span class="line">)</span><br><span class="line"><span class="keyword">STORED</span> <span class="keyword">AS</span> TEXTFILE</span><br><span class="line"><span class="keyword">as</span>   <span class="keyword">select</span></span><br><span class="line">  <span class="keyword">distinct</span></span><br><span class="line">  a,</span><br><span class="line">  b</span><br><span class="line">  <span class="keyword">from</span> xxx;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>Excel中csv格式中会出现\n 使用rtrim和ltrim可以去除,每一列数据都是以<code>&quot;</code>分割数据,但是在数据出现<code>&quot;</code>号的话就会导致数据串行,此时我们可以使用<code>&quot;&quot;</code>来代表那是数据中双引号</p>
+</div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2018/02/04/2018-02-04-spark-shuffle-summary/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/02/04/2018-02-04-spark-shuffle-summary/" itemprop="url">
+                  Spark  Shuffle总结
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-02-04T13:42:59+08:00">
+                2018-02-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spark/" itemprop="url" rel="index">
+                    <span itemprop="name">Spark</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  655 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  3 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h2 id="Spark-Shuffle的过程："><a href="#Spark-Shuffle的过程：" class="headerlink" title="Spark  Shuffle的过程："></a>Spark  Shuffle的过程：<p>1.1 以前 Hash Shuffle<br>1.1.x 添加Sort Shuffle<br>1.5.x 添加Unsafe Shuffle<br>1.6.x 合并Unsafe Shuffle和Sort Shuffle<br>2.0.x 移除Hash Shuffle</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/04/2018-02-04-spark-shuffle-summary/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div></article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2017/12/15/2017-12-15-baidu-advanced-search/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/12/15/2017-12-15-baidu-advanced-search/" itemprop="url">
+                  百度高级搜索
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-15T00:14:54+08:00">
+                2017-12-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/other/" itemprop="url" rel="index">
+                    <span itemprop="name">其他</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  106 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css"><div class=".article-gallery" <h4 id="搜索标题内限定的字符"><a href="#搜索标题内限定的字符" class="headerlink" title="搜索标题内限定的字符"></a>搜索标题内限定的字符<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xxx intitle:xxx</span><br></pre></td></tr></table></figure>
+
+<h4 id="只搜索特定站点的数据（只写域名）"><a href="#只搜索特定站点的数据（只写域名）" class="headerlink" title="只搜索特定站点的数据（只写域名）"></a>只搜索特定站点的数据（只写域名）</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xxx site:xxx</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/15/2017-12-15-baidu-advanced-search/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div></article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-_post " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://wissy.me/2017/12/14/2017-12-14-test-password/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yongsheng Wang">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Wissy's Tech Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Wissy's Tech Blog" src="/images/avatar.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/12/14/2017-12-14-test-password/" itemprop="url">
+                  测试加密文档
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-14T22:04:39+08:00">
+                2017-12-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/other/" itemprop="url" rel="index">
+                    <span itemprop="name">其他</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+
+
+
+
+          
+
+          
+
+          
+          
+
+          
+
+    
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  56 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+
+
+          
+
+
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          查看这个博客请数据密码 wissy
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/14/2017-12-14-test-password/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+  
+
+
+   
+
+    
+    <div>
+      
+    </div>
+    <footer class="post-footer">
+        
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/en/page/2/">2</a><a class="page-number" href="/en/page/3/">3</a><a class="extend next" rel="next" href="/en/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Yongsheng Wang">
+          <p class="site-author-name" itemprop="name">Yongsheng Wang</p>
+          <p class="site-description motion-element" itemprop="description">胡编一通，乱写一气</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>
+    <!-- Google内容广告 -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4037679168441554" data-ad-slot="1646119822" data-ad-format="auto">
+    </ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js"></script>
+<script>
+    mermaidAPI.initialize({
+        startOnLoad:false
+    });
+    $(function(){
+        // Example of using the API
+        var element = document.querySelector("#graphDiv");
+
+        var insertSvg = function(svgCode, bindFunctions){
+            element.innerHTML = svgCode;
+        };
+
+        var graphDefinition = 'graph TB\na-->b';
+        var graph = mermaidAPI.render('graphDiv', graphDefinition, insertSvg);
+    });
+</script>
+
+<div class="copyright">
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yongsheng Wang</span>
+ <!--以下3行为一条竖线和Coding Page-->
+  <div class="powered-by">  
+  </div>
+  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io" rel="external nofollow">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">
+    NexT.Mist
+  </a>
+</div>
+
+ 
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">9.8k</span>
+  
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+</body>
+</html>
